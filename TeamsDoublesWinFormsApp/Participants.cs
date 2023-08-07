@@ -14,7 +14,7 @@ namespace TeamsDoublesWinFormsApp
 
         public static List<Participant> GetAll(string currentSport)
         {
-            string[] teams = File.ReadAllLines(@"\\server.gkbaltbet.local\\profiles\\alitvinov\\Desktop\\Participants.csv");
+            string[] teams = File.ReadAllLines("Participants.csv");
 
             foreach (var line in teams)
             {
